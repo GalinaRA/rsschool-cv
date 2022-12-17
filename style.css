@@ -1,6 +1,21 @@
 h1{
-    color: blueviolet;
+    color: rgb(226, 43, 119);
+    font-style: italic;
 }
+h2{
+    color: rgb(180, 34, 95);
+    font-style: italic;
+}
+.F{
+padding: 10px;
+width: 50px;
+height: 50px;
+}
+.L{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    }
 body{
     background-color: lavenderblush;
 }
