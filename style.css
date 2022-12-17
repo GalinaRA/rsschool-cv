@@ -1,29 +1,40 @@
+main{
+    margin: 0 auto;
+}
 h1{
     color:rgb(180, 34, 95);
     font-style: italic;
     font-size: 30px;
     text-align: center;
-
 }
 h2{
     color: rgb(180, 34, 95);
     font-style: italic;
     font-size: 24px;
     text-align: center;
-
+}
+.date{
+    font-weight: 800;
+    font-size: 24px;
 }
 .I{
     border: solid 2px lavenderblush;
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    
     }
 .F{
 padding: 10px;
 width: 50px;
 height: 50px;
-
+}
+.git{
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 .L{
     padding: 10px;
@@ -47,6 +58,9 @@ hr{
     height:10px;
    background-color: rgb(184, 112, 142) ;
    border: none;
+}
+td{
+    width: 300px;
 }
 .list li{
     color:rgb(114, 29, 103);
