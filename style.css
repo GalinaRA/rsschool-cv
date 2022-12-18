@@ -1,16 +1,17 @@
-main{
+.container{
+    max-width: 1200px;
     margin: 0 auto;
 }
 h1{
     color:rgb(180, 34, 95);
     font-style: italic;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
 }
 h2{
     color: rgb(180, 34, 95);
     font-style: italic;
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
 }
 .date{
@@ -50,9 +51,17 @@ body{
     background-size: 300px;
     height: 300px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
    
+}
+.tab {
+    background-image: url(./images/fon3.png);
+    background-size: 150px;
+    background-repeat:repeat-x;
+    height: 150px;
+    
+
 }
 hr{
     height:10px;
@@ -69,6 +78,24 @@ td{
 .Mlist {
     color:rgb(114, 29, 103);
     font-weight: 900;
-    font-size: 22px;
+    font-size: 30px;
+
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 100%;
+}
+nav{
+    width: 1000px;
+    margin-bottom: 10px;
+}
+.nav-list a{
+    color: rgb(128, 10, 158);
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
 
 }
