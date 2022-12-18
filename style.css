@@ -1,0 +1,101 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    color:rgb(180, 34, 95);
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+}
+h2{
+    color: rgb(180, 34, 95);
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+.date{
+    font-weight: 800;
+    font-size: 24px;
+}
+.I{
+    border: solid 2px lavenderblush;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    }
+.F{
+padding: 10px;
+width: 50px;
+height: 50px;
+}
+.git{
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.L{
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    }
+body{
+    background-color: lavenderblush;
+}
+.b1{
+    background-image: url('./images/logo.jpeg');
+    background-repeat:repeat-x;
+    background-size: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.tab {
+    background-image: url(./images/fon3.png);
+    background-size: 150px;
+    background-repeat:repeat-x;
+    height: 150px;
+    
+
+}
+hr{
+    height:10px;
+   background-color: rgb(184, 112, 142) ;
+   border: none;
+}
+td{
+    width: 300px;
+}
+.list li{
+    color:rgb(114, 29, 103);
+    font-weight: 900;
+}
+.Mlist {
+    color:rgb(114, 29, 103);
+    font-weight: 900;
+    font-size: 30px;
+
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 100%;
+}
+nav{
+    width: 1000px;
+    margin-bottom: 10px;
+}
+.nav-list a{
+    color: rgb(128, 10, 158);
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+
+}
