@@ -4,13 +4,13 @@ main{
 h1{
     color:rgb(180, 34, 95);
     font-style: italic;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
 }
 h2{
     color: rgb(180, 34, 95);
     font-style: italic;
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
 }
 .date{
@@ -54,6 +54,14 @@ body{
     align-items: center;
    
 }
+.tab {
+    background-image: url(./images/fon3.png);
+    background-size: 150px;
+    background-repeat:repeat-x;
+    height: 150px;
+    
+
+}
 hr{
     height:10px;
    background-color: rgb(184, 112, 142) ;
@@ -69,6 +77,6 @@ td{
 .Mlist {
     color:rgb(114, 29, 103);
     font-weight: 900;
-    font-size: 22px;
+    font-size: 30px;
 
 }
